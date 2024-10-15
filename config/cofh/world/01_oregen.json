@@ -1,0 +1,1114 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+
+		"coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 15,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:extreme_hills",
+"minecraft:smaller_extreme_hills",
+"minecraft:extreme_hills_with_trees",
+"biomesoplenty:alps",
+"biomesoplenty:crag",
+"biomesoplenty:highland",
+"biomesoplenty:mountain",
+"biomesoplenty:overgrown_cliffs",
+"biomesoplenty:alps_foothills",
+"biomesoplenty:mountain_foothills",
+"minecraft:mutated_extreme_hills",
+"minecraft:mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"mountain_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 15,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:extreme_hills",
+"minecraft:smaller_extreme_hills",
+"minecraft:extreme_hills_with_trees",
+"biomesoplenty:alps",
+"biomesoplenty:crag",
+"biomesoplenty:highland",
+"biomesoplenty:mountain",
+"biomesoplenty:overgrown_cliffs",
+"biomesoplenty:alps_foothills",
+"biomesoplenty:mountain_foothills",
+"minecraft:mutated_extreme_hills",
+"minecraft:mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "immersiveengineering:ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 16,
+			"min-height": 12,
+			"max-height": 72,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:forest_hills",
+							"minecraft:birch_forest",
+							"minecraft:birch_forest_hills",
+							"minecraft:roofed_forest",
+							"biomesoplenty:cherry_blossom_grove",
+							"biomesoplenty:grove",
+							"biomesoplenty:maple_woods",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:orchard",
+							"biomesoplenty:redwood_forest",
+							"biomesoplenty:seasonal_forest",
+							"biomesoplenty:temperate_rainforest",
+							"biomesoplenty:woodland",
+							"biomesoplenty:redwood_forest_edge",
+							"biomesoplenty:origin_island",
+							"minecraft:mutated_forest",
+							"minecraft:mutated_birch_forest",
+							"minecraft:mutated_birch_forest_hills",
+							"minecraft:mutated_roofed_forest"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"forest_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "immersiveengineering:ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 26,
+			"min-height": 12,
+			"max-height": 78,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:forest_hills",
+							"minecraft:birch_forest",
+							"minecraft:birch_forest_hills",
+							"minecraft:roofed_forest",
+							"biomesoplenty:cherry_blossom_grove",
+							"biomesoplenty:grove",
+							"biomesoplenty:maple_woods",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:orchard",
+							"biomesoplenty:redwood_forest",
+							"biomesoplenty:seasonal_forest",
+							"biomesoplenty:temperate_rainforest",
+							"biomesoplenty:woodland",
+							"biomesoplenty:redwood_forest_edge",
+							"biomesoplenty:origin_island",
+							"minecraft:mutated_forest",
+							"minecraft:mutated_birch_forest",
+							"minecraft:mutated_birch_forest_hills",
+							"minecraft:mutated_roofed_forest"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"snow_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 18,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"properties": {
+						"type": "silver"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 2,
+			"min-height": 8,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"snow_silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"properties": {
+						"type": "silver"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 6,
+			"min-height": 8,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:desert",
+"minecraft:desert_hills",
+"minecraft:mesa",
+"minecraft:mesa_rock",
+"minecraft:mesa_clear_rock",
+"biomesoplenty:lush_desert",
+"biomesoplenty:wasteland",
+"biomesoplenty:xeric_shrubland",
+"biomesoplenty:oasis",
+"minecraft:mutated_desert",
+"minecraft:mutated_mesa",
+"minecraft:mutated_mesa_rock",
+"minecraft:mutated_mesa_clear_rock",
+"minecraft:jungle",
+"minecraft:jungle_hills",
+"minecraft:jungle_edge",
+"biomesoplenty:bamboo_forest",
+"biomesoplenty:eucalyptus_forest",
+"biomesoplenty:rainforest",
+"biomesoplenty:sacred_springs",
+"biomesoplenty:mystic_grove",
+"biomesoplenty:tropical_rainforest",
+"biomesoplenty:wetland",
+"biomesoplenty:tropical_island",
+"biomesoplenty:flower_island",
+"minecraft:mutated_jungle",
+"minecraft:mutated_jungle_edge"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"jungle_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:jungle",
+"minecraft:jungle_hills",
+"minecraft:jungle_edge",
+"biomesoplenty:bamboo_forest",
+"biomesoplenty:eucalyptus_forest",
+"biomesoplenty:rainforest",
+"biomesoplenty:sacred_springs",
+"biomesoplenty:mystic_grove",
+"biomesoplenty:tropical_rainforest",
+"biomesoplenty:wetland",
+"biomesoplenty:tropical_island",
+"biomesoplenty:flower_island",
+"minecraft:mutated_jungle",
+"minecraft:mutated_jungle_edge"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"desert_gold": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gold_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:desert",
+"minecraft:desert_hills",
+"minecraft:mesa",
+"minecraft:mesa_rock",
+"minecraft:mesa_clear_rock",
+"biomesoplenty:lush_desert",
+"biomesoplenty:wasteland",
+"biomesoplenty:xeric_shrubland",
+"biomesoplenty:oasis",
+"minecraft:mutated_desert",
+"minecraft:mutated_mesa",
+"minecraft:mutated_mesa_rock",
+"minecraft:mutated_mesa_clear_rock"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"properties": {
+						"type": "lead"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 8,
+			"max-height": 42,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"aluminum tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"properties": {
+						"type": "aluminum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 16,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"properties": {
+						"type": "nickel"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 1,
+			"min-height": 8,
+			"max-height": 24,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 24,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:swampland",
+"biomesoplenty:bayou",
+"biomesoplenty:bog",
+"biomesoplenty:dead_swamp",
+"biomesoplenty:fen",
+"biomesoplenty:lush_swamp",
+"biomesoplenty:mangrove",
+"biomesoplenty:marsh",
+"biomesoplenty:moor",
+"biomesoplenty:quagmire",
+"minecraft:mutated_swampland"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"swamp_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:swampland",
+"biomesoplenty:bayou",
+"biomesoplenty:bog",
+"biomesoplenty:dead_swamp",
+"biomesoplenty:fen",
+"biomesoplenty:lush_swamp",
+"biomesoplenty:mangrove",
+"biomesoplenty:marsh",
+"biomesoplenty:moor",
+"biomesoplenty:quagmire",
+"minecraft:mutated_swampland"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 16,
+			"spread": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:taiga",
+"minecraft:taiga_hills",
+"minecraft:taiga_cold",
+"minecraft:taiga_cold_hills",
+"minecraft:redwood_taiga",
+"minecraft:redwood_taiga_hills",
+"biomesoplenty:boreal_forest",
+"biomesoplenty:coniferous_forest",
+"biomesoplenty:dead_forest",
+"biomesoplenty:land_of_lakes",
+"biomesoplenty:shield",
+"biomesoplenty:snowy_coniferous_forest",
+"biomesoplenty:snowy_forest",
+"minecraft:mutated_taiga",
+"minecraft:mutated_taiga_cold",
+"minecraft:mutated_redwood_taiga",
+"minecraft:mutated_redwood_taiga_hills"
+
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"cold_forest_lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 3,
+			"center-height": 32,
+			"spread": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:taiga",
+"minecraft:taiga_hills",
+"minecraft:taiga_cold",
+"minecraft:taiga_cold_hills",
+"minecraft:redwood_taiga",
+"minecraft:redwood_taiga_hills",
+"biomesoplenty:boreal_forest",
+"biomesoplenty:coniferous_forest",
+"biomesoplenty:dead_forest",
+"biomesoplenty:land_of_lakes",
+"biomesoplenty:shield",
+"biomesoplenty:snowy_coniferous_forest",
+"biomesoplenty:snowy_forest",
+"minecraft:mutated_taiga",
+"minecraft:mutated_taiga_cold",
+"minecraft:mutated_redwood_taiga",
+"minecraft:mutated_redwood_taiga_hills"
+
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:forest_hills",
+							"minecraft:birch_forest",
+							"minecraft:birch_forest_hills",
+							"minecraft:roofed_forest",
+							"biomesoplenty:cherry_blossom_grove",
+							"biomesoplenty:grove",
+							"biomesoplenty:maple_woods",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:orchard",
+							"biomesoplenty:redwood_forest",
+							"biomesoplenty:seasonal_forest",
+							"biomesoplenty:temperate_rainforest",
+							"biomesoplenty:woodland",
+							"biomesoplenty:redwood_forest_edge",
+							"biomesoplenty:origin_island",
+							"minecraft:mutated_forest",
+							"minecraft:mutated_birch_forest",
+							"minecraft:mutated_birch_forest_hills",
+							"minecraft:mutated_roofed_forest",
+							"minecraft:plains",
+							"biomesoplenty:chaparral",
+							"biomesoplenty:flower_field",
+							"biomesoplenty:grassland",
+							"biomesoplenty:lavender_fields",
+							"biomesoplenty:meadow",
+							"biomesoplenty:prairie",
+							"biomesoplenty:shrubland",
+							"biomesoplenty:pasture",
+							"minecraft:mutated_plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},	
+
+		"sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "biomesoplenty:gem_ore",
+					"properties": {
+						"variant": "sapphire"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats",
+"minecraft:ice_flats",
+"minecraft:ice_mountains",
+"biomesoplenty:cold_desert",
+"biomesoplenty:tundra",
+"biomesoplenty:glacier",
+"biomesoplenty:snowy_tundra",
+"minecraft:mutated_ice_flats"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},		
+	
+		"topaz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "biomesoplenty:gem_ore",
+					"properties": {
+						"variant": "topaz"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 4,
+				"max": 8
+			},
+			"min-height": 0,
+			"max-height": 24,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:jungle",
+"minecraft:jungle_hills",
+"minecraft:jungle_edge",
+"biomesoplenty:bamboo_forest",
+"biomesoplenty:eucalyptus_forest",
+"biomesoplenty:rainforest",
+"biomesoplenty:sacred_springs",
+"biomesoplenty:mystic_grove",
+"biomesoplenty:tropical_rainforest",
+"biomesoplenty:wetland",
+"biomesoplenty:tropical_island",
+"biomesoplenty:flower_island",
+"minecraft:mutated_jungle",
+"minecraft:mutated_jungle_edge"
+
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+"ruby": {
+    "distribution": "uniform",
+    "generator": {
+        "block": {
+            "name": "biomesoplenty:gem_ore",
+            "properties": {
+                "variant": "ruby"
+            }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 1
+    },
+    "cluster-count": {
+        "min": 3,
+        "max": 6
+    },
+    "min-height": 0,
+    "max-height": 16,
+    "retrogen": false,
+    "biome": {
+        "restriction": "whitelist",
+        "value": [
+            {
+                "type": "id",
+                "entry": [
+                    "minecraft:desert",
+                    "minecraft:desert_hills",
+                    "minecraft:mesa",
+                    "minecraft:mesa_rock",
+                    "minecraft:mesa_clear_rock",
+                    "biomesoplenty:lush_desert",
+                    "biomesoplenty:wasteland",
+                    "biomesoplenty:xeric_shrubland",
+                    "biomesoplenty:oasis",
+                    "minecraft:mutated_desert",
+                    "minecraft:mutated_mesa",
+                    "minecraft:mutated_mesa_rock",
+                    "minecraft:mutated_mesa_clear_rock",
+                    "minecraft:savanna",
+                    "minecraft:savanna_rock",
+                    "biomesoplenty:brushland",
+                    "biomesoplenty:outback",
+                    "minecraft:mutated_savanna",
+                    "minecraft:mutated_savanna_rock"
+                ]
+            }
+        ]
+    },
+    "dimension": {
+        "restriction": "blacklist",
+        "value": [
+            -1,
+            1
+        ]
+    }
+},
+
+"aquamarine": {
+    "distribution": "uniform",
+    "generator": {
+        "block": {
+            "name": "biomesoplenty:gem_ore",
+            "properties": {
+                "variant": "amber"
+            }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 1
+    },
+    "cluster-count": {
+        "min": 3,
+        "max": 6
+    },
+    "min-height": 0,
+    "max-height": 16,
+    "retrogen": false,
+    "biome": {
+        "restriction": "whitelist",
+        "value": [
+            {
+                "type": "id",
+                "entry": [
+                    "minecraft:ocean",
+					"minecraft:frozen_ocean",
+					"minecraft:deep_ocean",
+					"minecraft:mushroom_island"
+                ]
+            }
+        ]
+    },
+    "dimension": {
+        "restriction": "blacklist",
+        "value": [
+            -1,
+            1
+        ]
+    }
+},
+
+
+		"emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 4,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:extreme_hills",
+"minecraft:smaller_extreme_hills",
+"minecraft:extreme_hills_with_trees",
+"biomesoplenty:alps",
+"biomesoplenty:crag",
+"biomesoplenty:highland",
+"biomesoplenty:mountain",
+"biomesoplenty:overgrown_cliffs",
+"biomesoplenty:alps_foothills",
+"biomesoplenty:mountain_foothills",
+"minecraft:mutated_extreme_hills",
+"minecraft:mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "biomesoplenty:gem_ore",
+					"properties": {
+						"variant": "peridot"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+"minecraft:swampland",
+"biomesoplenty:bayou",
+"biomesoplenty:bog",
+"biomesoplenty:dead_swamp",
+"biomesoplenty:fen",
+"biomesoplenty:lush_swamp",
+"biomesoplenty:mangrove",
+"biomesoplenty:marsh",
+"biomesoplenty:moor",
+"biomesoplenty:quagmire",
+"minecraft:mutated_swampland"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

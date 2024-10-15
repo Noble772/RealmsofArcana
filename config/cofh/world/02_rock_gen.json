@@ -1,0 +1,275 @@
+{
+    "populate": {
+        "flint": {
+            "distribution": "surface",
+            "generator": {
+                "type": "decoration",
+                "block": [
+                    {
+                        "name": "pyrotech:rock",
+                        "properties": {
+                            "variant": "rock_limestone"
+                        }
+                    }
+                ],
+                "surface": [
+                    "minecraft:gravel",
+                    "minecraft:sand"
+                ],
+                "cluster-size": 2
+            },
+            "material": [
+                "minecraft:gravel",
+                "minecraft:sand"
+            ],
+            "cluster-count": 2,
+            "retrogen": true,
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:desert",
+                            "minecraft:desert_hills",
+                            "minecraft:mesa",
+                            "minecraft:mesa_rock",
+                            "minecraft:mesa_clear_rock",
+                            "biomesoplenty:lush_desert",
+                            "biomesoplenty:wasteland",
+                            "biomesoplenty:xeric_shrubland",
+                            "biomesoplenty:oasis",
+                            "minecraft:mutated_desert",
+                            "minecraft:mutated_mesa",
+                            "minecraft:mutated_mesa_rock",
+                            "minecraft:mutated_mesa_clear_rock"
+                        ]
+                    }
+                ]
+            }
+        },
+        "river_flint": {
+            "distribution": "surface",
+            "generator": {
+                "type": "decoration",
+                "block": [
+                    {
+                        "name": "pyrotech:rock",
+                        "properties": {
+                            "variant": "rock_limestone"
+                        }
+                    }
+                ],
+                "surface": [
+                    "minecraft:grass",
+                    "minecraft:stone",
+                    "minecraft:dirt",
+                    "biomesoplenty:grass",
+                    "minecraft:gravel",
+                {
+                    "name": "minecraft:sand",
+                    "properties": {
+                        "variant": "sand"
+                    }
+                }
+                ],
+                "cluster-size": 2
+            },
+            "material": [
+                "minecraft:grass",
+                "minecraft:stone",
+                "minecraft:dirt",
+                "biomesoplenty:grass",
+                "minecraft:gravel",
+                {
+                    "name": "minecraft:sand",
+                    "properties": {
+                        "variant": "sand"
+                    }
+                }
+            ],
+            "cluster-count": 20,
+            "retrogen": true,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:river",
+                            "minecraft:frozen_river"
+                        ]
+                    }
+                ]
+            }
+        },
+        "rock": {
+            "distribution": "surface",
+            "generator": {
+                "type": "decoration",
+                "block": [
+                    {
+                        "name": "pyrotech:rock",
+                        "properties": {
+                            "variant": "rock_stone"
+                        }
+                    }
+                ],
+                "surface": [
+                    "minecraft:grass",
+                    "minecraft:stone",
+                    "minecraft:dirt",
+                    "biomesoplenty:grass"
+                ],
+                "cluster-size": 2
+            },
+            "material": [
+                "minecraft:grass",
+                "minecraft:stone",
+                "biomesoplenty:grass",
+                "minecraft:dirt"
+            ],
+            "cluster-count": 4,
+            "retrogen": true,
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:desert",
+                            "minecraft:desert_hills",
+                            "minecraft:mesa",
+                            "minecraft:mesa_rock",
+                            "minecraft:mesa_clear_rock",
+                            "biomesoplenty:lush_desert",
+                            "biomesoplenty:wasteland",
+                            "biomesoplenty:xeric_shrubland",
+                            "biomesoplenty:oasis",
+                            "minecraft:mutated_desert",
+                            "minecraft:mutated_mesa",
+                            "minecraft:mutated_mesa_rock",
+                            "minecraft:mutated_mesa_clear_rock"
+                        ]
+                    }
+                ]
+            }
+        },
+        "sandstone": {
+            "distribution": "surface",
+            "generator": {
+                "type": "decoration",
+                "block": [
+                    {
+                        "name": "pyrotech:rock",
+                        "properties": {
+                            "variant": "rock_sandstone"
+                        }
+                    }
+                ],
+                "surface": [
+                    {
+                        "name": "minecraft:sand",
+                        "properties": {
+                            "variant": "sand"
+                        }
+                    },
+                    "minecraft:sandstone"
+                ],
+                "cluster-size": 2
+            },
+            "material": [
+                {
+                    "name": "minecraft:sand",
+                    "properties": {
+                        "variant": "sand"
+                    }
+                },
+                "minecraft:sandstone"
+            ],
+            "cluster-count": 1,
+            "retrogen": true,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:desert",
+                            "minecraft:desert_hills",
+                            "minecraft:mesa",
+                            "minecraft:mesa_rock",
+                            "minecraft:mesa_clear_rock",
+                            "biomesoplenty:lush_desert",
+                            "biomesoplenty:wasteland",
+                            "biomesoplenty:xeric_shrubland",
+                            "biomesoplenty:oasis",
+                            "minecraft:mutated_desert",
+                            "minecraft:mutated_mesa",
+                            "minecraft:mutated_mesa_rock",
+                            "minecraft:mutated_mesa_clear_rock"
+                        ]
+                    }
+                ]
+            }
+        },
+        "red_sandstone": {
+            "distribution": "surface",
+            "generator": {
+                "type": "decoration",
+                "block": [
+                    {
+                        "name": "pyrotech:rock",
+                        "properties": {
+                            "variant": "rock_sandstone_red"
+                        }
+                    }
+                ],
+                "surface": [
+                    {
+                        "name": "minecraft:sand",
+                        "properties": {
+                            "variant": "red_sand"
+                        }
+                    },
+                    "minecraft:red_sandstone"
+                ],
+                "cluster-size": 2
+            },
+            "material": [
+                {
+                    "name": "minecraft:sand",
+                    "properties": {
+                        "variant": "red_sand"
+                    }
+                },
+                "minecraft:red_sandstone"
+            ],
+            "cluster-count": 1,
+            "retrogen": true,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:desert",
+                            "minecraft:desert_hills",
+                            "minecraft:mesa",
+                            "minecraft:mesa_rock",
+                            "minecraft:mesa_clear_rock",
+                            "biomesoplenty:lush_desert",
+                            "biomesoplenty:wasteland",
+                            "biomesoplenty:xeric_shrubland",
+                            "biomesoplenty:oasis",
+                            "minecraft:mutated_desert",
+                            "minecraft:mutated_mesa",
+                            "minecraft:mutated_mesa_rock",
+                            "minecraft:mutated_mesa_clear_rock"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
