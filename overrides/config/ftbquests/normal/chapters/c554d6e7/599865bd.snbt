@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
-	y: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"bfcad565"
+	],
 	tasks: [{
 		uid: "7b5a3bea",
 		type: "item",

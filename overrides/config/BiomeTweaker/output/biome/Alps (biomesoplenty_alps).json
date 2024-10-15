@@ -21,9 +21,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "DRY",
-    "SNOWY",
     "COLD",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -205,8 +205,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "ICE_CAP": 5,
-    "TUNDRA": 3
+    "TUNDRA": 3,
+    "ICE_CAP": 5
   },
   "BOP Climate Weights": {
     "ICE_CAP": [

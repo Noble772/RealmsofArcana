@@ -149,12 +149,12 @@ quark:ashen
 quark:frog
 quark:pirate
 quark:wraith
+quark:gravisand
+quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:gravisand
-quark:chest_passenger
 miscrails:speed_cart
 betternether:firefly_nether
 botania:mana_burst

@@ -1,7 +1,13 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	dependencies: [
+		"16e47c4f",
+		"da8c7909",
+		"599865bd"
+	],
 	size: 2.0d,
+	or_tasks: true,
 	tasks: [{
 		uid: "9c8f9c59",
 		type: "item",

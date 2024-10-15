@@ -1,8 +1,12 @@
 {
-	x: 15.0d,
+	x: 12.0d,
 	y: 0.0d,
+	dependencies: [
+		"a9d9d795"
+	],
 	dependency_requirement: "one_completed",
 	size: 2.0d,
+	or_tasks: true,
 	tasks: [{
 		uid: "6a697068",
 		type: "item",

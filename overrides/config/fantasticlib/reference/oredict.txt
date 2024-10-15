@@ -242,9 +242,9 @@ plantRafflesia
 plantBarley
 plantFlax
 mushroomAny
-tallow
 buttonWood
 gemEnderBiotite
+tallow
 stoneBasalt
 stoneMarble
 stoneLimestone
@@ -776,6 +776,9 @@ stoneBrimstonePolished
 stonePermafrostPolished
 blockPrismarineElderBrick
 blockPrismarineElderDark
+stonePolished
+plankStained
+shardGlass
 bookshelf
 bookshelfOak
 bookshelfSpruce
@@ -785,9 +788,6 @@ bookshelfAcacia
 bookshelfDarkOak
 blockCandle
 pressurePlateWood
-shardGlass
-stonePolished
-plankStained
 blockSlimeCyan
 blockSlimeMagenta
 blockSlimeYellow
