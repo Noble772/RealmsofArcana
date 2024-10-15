@@ -1,0 +1,4 @@
+tile.iron_furnace_idle.name=Brick Furnace
+tile.iron_furnace_active.name=Brick Furnace
+
+container.furnace_0=Furnace

@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+   "textures": {
+      "particle": "giacomos_bookshelf:blocks/bookshelf_big_oak_4",
+      "down":     "blocks/planks_big_oak",
+      "up":       "blocks/planks_big_oak",
+      "north":    "blocks/planks_big_oak",
+      "south":    "blocks/planks_big_oak",
+      "west":     "giacomos_bookshelf:blocks/bookshelf_big_oak_4",
+      "east":     "giacomos_bookshelf:blocks/bookshelf_big_oak_4"
+   }
+}

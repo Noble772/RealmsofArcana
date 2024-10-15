@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+   "textures": {
+      "particle": "giacomos_bookshelf:blocks/bookshelf_jungle_7",
+      "down":     "blocks/planks_jungle",
+      "up":       "blocks/planks_jungle",
+      "north":    "blocks/planks_jungle",
+      "south":    "blocks/planks_jungle",
+      "west":     "giacomos_bookshelf:blocks/bookshelf_jungle_7",
+      "east":     "giacomos_bookshelf:blocks/bookshelf_jungle_7"
+   }
+}

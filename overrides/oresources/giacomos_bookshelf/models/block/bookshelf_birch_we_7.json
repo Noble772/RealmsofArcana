@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+   "textures": {
+      "particle": "giacomos_bookshelf:blocks/bookshelf_birch_7",
+      "down":     "blocks/planks_birch",
+      "up":       "blocks/planks_birch",
+      "north":    "blocks/planks_birch",
+      "south":    "blocks/planks_birch",
+      "west":     "giacomos_bookshelf:blocks/bookshelf_birch_7",
+      "east":     "giacomos_bookshelf:blocks/bookshelf_birch_7"
+   }
+}

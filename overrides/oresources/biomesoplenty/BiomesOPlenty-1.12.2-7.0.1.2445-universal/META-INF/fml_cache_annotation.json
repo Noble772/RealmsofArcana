@@ -1,0 +1,1479 @@
+{
+  "biomesoplenty/api/enums/BOPFlowers": {
+    "name": "biomesoplenty/api/enums/BOPFlowers",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable",
+      "biomesoplenty/api/enums/IPagedVariants"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPGems": {
+    "name": "biomesoplenty/api/enums/BOPGems",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPPlants": {
+    "name": "biomesoplenty/api/enums/BOPPlants",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable",
+      "biomesoplenty/api/enums/IPagedVariants"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPTrees": {
+    "name": "biomesoplenty/api/enums/BOPTrees",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable",
+      "biomesoplenty/api/enums/IPagedVariants"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPTrees$1": {
+    "name": "biomesoplenty/api/enums/BOPTrees$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPWoods": {
+    "name": "biomesoplenty/api/enums/BOPWoods",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable",
+      "biomesoplenty/api/enums/IPagedVariants"
+    ]
+  },
+  "biomesoplenty/api/enums/BOPWoods$1": {
+    "name": "biomesoplenty/api/enums/BOPWoods$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/api/generation/BOPGeneratorBase": {
+    "name": "biomesoplenty/api/generation/BOPGeneratorBase",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator"
+    ]
+  },
+  "biomesoplenty/api/generation/GeneratorStage": {
+    "name": "biomesoplenty/api/generation/GeneratorStage",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "PRE",
+        "value": {
+          "value": "pre"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "BIG_SHROOM",
+        "value": {
+          "value": "big_shroom"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "CACTUS",
+        "value": {
+          "value": "cactus"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "CLAY",
+        "value": {
+          "value": "clay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "DEAD_BUSH",
+        "value": {
+          "value": "dead_bush"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "DESERT_WELL",
+        "value": {
+          "value": "desert_well"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "LILYPAD",
+        "value": {
+          "value": "lilypad"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "FLOWERS",
+        "value": {
+          "value": "flowers"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "FOSSIL",
+        "value": {
+          "value": "fossil"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "GRASS",
+        "value": {
+          "value": "grass"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "ICE",
+        "value": {
+          "value": "ice"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "LAKE_WATER",
+        "value": {
+          "value": "lake_water"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "LAKE_LAVA",
+        "value": {
+          "value": "lake_lava"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "PUMPKIN",
+        "value": {
+          "value": "pumpkin"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "REED",
+        "value": {
+          "value": "reed"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "ROCK",
+        "value": {
+          "value": "rock"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "SAND",
+        "value": {
+          "value": "sand"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "SAND_PASS2",
+        "value": {
+          "value": "sand_pass_2"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "SHROOM",
+        "value": {
+          "value": "shroom"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "TREE",
+        "value": {
+          "value": "tree"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "POST",
+        "value": {
+          "value": "post"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "PARENT",
+        "value": {
+          "value": "parent"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "ORE_PRE",
+        "value": {
+          "value": "ore_pre"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "ORE_POST",
+        "value": {
+          "value": "ore_post"
+        }
+      }
+    ]
+  },
+  "biomesoplenty/client/gui/GuiBOPConfigureWorld": {
+    "name": "biomesoplenty/client/gui/GuiBOPConfigureWorld",
+    "interfaces": [
+      "net/minecraft/client/gui/GuiSlider$FormatHelper",
+      "biomesoplenty/client/gui/GuiBOPPageList$GuiResponder"
+    ]
+  },
+  "biomesoplenty/client/gui/GuiBOPConfigureWorld$1": {
+    "name": "biomesoplenty/client/gui/GuiBOPConfigureWorld$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/client/gui/GuiBOPPageList$GuiResponder": {
+    "name": "biomesoplenty/client/gui/GuiBOPPageList$GuiResponder",
+    "interfaces": [
+      "net/minecraft/client/gui/GuiPageButtonList$GuiResponder"
+    ]
+  },
+  "biomesoplenty/client/gui/GuiBOPPageList$GuiRowEntry": {
+    "name": "biomesoplenty/client/gui/GuiBOPPageList$GuiRowEntry",
+    "interfaces": [
+      "net/minecraft/client/gui/GuiListExtended$IGuiListEntry"
+    ]
+  },
+  "biomesoplenty/client/util/ModelUtils$1": {
+    "name": "biomesoplenty/client/util/ModelUtils$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "biomesoplenty/common/biome/BOPBiome": {
+    "name": "biomesoplenty/common/biome/BOPBiome",
+    "interfaces": [
+      "biomesoplenty/api/biome/IExtendedBiome"
+    ]
+  },
+  "biomesoplenty/common/biome/vanilla/ExtendedBiomeWrapper": {
+    "name": "biomesoplenty/common/biome/vanilla/ExtendedBiomeWrapper",
+    "interfaces": [
+      "biomesoplenty/api/biome/IExtendedBiome"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPBlueFire": {
+    "name": "biomesoplenty/common/block/BlockBOPBlueFire",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPBramblePlant": {
+    "name": "biomesoplenty/common/block/BlockBOPBramblePlant",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPCoral$CoralType": {
+    "name": "biomesoplenty/common/block/BlockBOPCoral$CoralType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPCrystal": {
+    "name": "biomesoplenty/common/block/BlockBOPCrystal",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDecoration": {
+    "name": "biomesoplenty/common/block/BlockBOPDecoration",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDirt": {
+    "name": "biomesoplenty/common/block/BlockBOPDirt",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock",
+      "biomesoplenty/common/block/ISustainsPlantType"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDirt$BOPDirtType": {
+    "name": "biomesoplenty/common/block/BlockBOPDirt$BOPDirtType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable",
+      "biomesoplenty/api/enums/IPagedVariants"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoor": {
+    "name": "biomesoplenty/common/block/BlockBOPDoor",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoubleDecoration$Half": {
+    "name": "biomesoplenty/common/block/BlockBOPDoubleDecoration$Half",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoublePlant": {
+    "name": "biomesoplenty/common/block/BlockBOPDoublePlant",
+    "interfaces": [
+      "net/minecraftforge/common/IShearable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoublePlant$1": {
+    "name": "biomesoplenty/common/block/BlockBOPDoublePlant$1",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoublePlant$DoublePlantType": {
+    "name": "biomesoplenty/common/block/BlockBOPDoublePlant$DoublePlantType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPDoubleWoodSlab": {
+    "name": "biomesoplenty/common/block/BlockBOPDoubleWoodSlab",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPFarmland": {
+    "name": "biomesoplenty/common/block/BlockBOPFarmland",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPFence": {
+    "name": "biomesoplenty/common/block/BlockBOPFence",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPFenceGate": {
+    "name": "biomesoplenty/common/block/BlockBOPFenceGate",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPFlesh": {
+    "name": "biomesoplenty/common/block/BlockBOPFlesh",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPFlower": {
+    "name": "biomesoplenty/common/block/BlockBOPFlower",
+    "interfaces": [
+      "net/minecraftforge/common/IShearable",
+      "vazkii/botania/api/item/IHornHarvestable"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Interface;",
+        "target": "biomesoplenty/common/block/BlockBOPFlower",
+        "values": {
+          "iface": {
+            "value": "vazkii.botania.api.item.IHornHarvestable"
+          },
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "canHornHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)Z",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "hasSpecialHornHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)Z",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "harvestByHorn(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)V",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      }
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGem": {
+    "name": "biomesoplenty/common/block/BlockBOPGem",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGemOre": {
+    "name": "biomesoplenty/common/block/BlockBOPGemOre",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGeneric": {
+    "name": "biomesoplenty/common/block/BlockBOPGeneric",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock",
+      "biomesoplenty/common/block/ISustainsPlantType"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGrass": {
+    "name": "biomesoplenty/common/block/BlockBOPGrass",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock",
+      "biomesoplenty/common/block/ISustainsPlantType"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGrass$BOPGrassType": {
+    "name": "biomesoplenty/common/block/BlockBOPGrass$BOPGrassType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPGrassPath": {
+    "name": "biomesoplenty/common/block/BlockBOPGrassPath",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHalfOtherSlab": {
+    "name": "biomesoplenty/common/block/BlockBOPHalfOtherSlab",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHalfOtherSlab$SlabType": {
+    "name": "biomesoplenty/common/block/BlockBOPHalfOtherSlab$SlabType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHalfWoodSlab": {
+    "name": "biomesoplenty/common/block/BlockBOPHalfWoodSlab",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHive": {
+    "name": "biomesoplenty/common/block/BlockBOPHive",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHive$HiveType": {
+    "name": "biomesoplenty/common/block/BlockBOPHive$HiveType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPHoney": {
+    "name": "biomesoplenty/common/block/BlockBOPHoney",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLeaves": {
+    "name": "biomesoplenty/common/block/BlockBOPLeaves",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLeaves$1": {
+    "name": "biomesoplenty/common/block/BlockBOPLeaves$1",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLilypad": {
+    "name": "biomesoplenty/common/block/BlockBOPLilypad",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLilypad$1": {
+    "name": "biomesoplenty/common/block/BlockBOPLilypad$1",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLilypad$LilypadType": {
+    "name": "biomesoplenty/common/block/BlockBOPLilypad$LilypadType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPLog": {
+    "name": "biomesoplenty/common/block/BlockBOPLog",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPMud": {
+    "name": "biomesoplenty/common/block/BlockBOPMud",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock",
+      "biomesoplenty/common/block/ISustainsPlantType"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPMud$MudType": {
+    "name": "biomesoplenty/common/block/BlockBOPMud$MudType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPMushroom$MushroomType": {
+    "name": "biomesoplenty/common/block/BlockBOPMushroom$MushroomType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPPlanks": {
+    "name": "biomesoplenty/common/block/BlockBOPPlanks",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPPlant": {
+    "name": "biomesoplenty/common/block/BlockBOPPlant",
+    "interfaces": [
+      "net/minecraftforge/common/IShearable",
+      "vazkii/botania/api/item/IHornHarvestable"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Interface;",
+        "target": "biomesoplenty/common/block/BlockBOPPlant",
+        "values": {
+          "iface": {
+            "value": "vazkii.botania.api.item.IHornHarvestable"
+          },
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "canHornHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)Z",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "hasSpecialHornHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)Z",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Optional$Method;",
+        "target": "harvestByHorn(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/ItemStack;Lvazkii/botania/api/item/IHornHarvestable$EnumHornType;)V",
+        "values": {
+          "modid": {
+            "value": "botania"
+          }
+        }
+      }
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPPlant$1": {
+    "name": "biomesoplenty/common/block/BlockBOPPlant$1",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPSapling": {
+    "name": "biomesoplenty/common/block/BlockBOPSapling",
+    "interfaces": [
+      "net/minecraft/block/IGrowable",
+      "net/minecraftforge/common/IPlantable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPSeaweed": {
+    "name": "biomesoplenty/common/block/BlockBOPSeaweed",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPSeaweed$SeaweedPosition": {
+    "name": "biomesoplenty/common/block/BlockBOPSeaweed$SeaweedPosition",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPSeaweed$SeaweedType": {
+    "name": "biomesoplenty/common/block/BlockBOPSeaweed$SeaweedType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPStoneStairs": {
+    "name": "biomesoplenty/common/block/BlockBOPStoneStairs",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPTerrarium": {
+    "name": "biomesoplenty/common/block/BlockBOPTerrarium",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPTerrarium$TerrariumType": {
+    "name": "biomesoplenty/common/block/BlockBOPTerrarium$TerrariumType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPVine": {
+    "name": "biomesoplenty/common/block/BlockBOPVine",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPWhiteSand": {
+    "name": "biomesoplenty/common/block/BlockBOPWhiteSand",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPWhiteSandstone": {
+    "name": "biomesoplenty/common/block/BlockBOPWhiteSandstone",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPWhiteSandstone$StoneType": {
+    "name": "biomesoplenty/common/block/BlockBOPWhiteSandstone$StoneType",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/block/BlockBOPWoodStairs": {
+    "name": "biomesoplenty/common/block/BlockBOPWoodStairs",
+    "interfaces": [
+      "biomesoplenty/common/block/IBOPBlock"
+    ]
+  },
+  "biomesoplenty/common/block/BlockColoring$1": {
+    "name": "biomesoplenty/common/block/BlockColoring$1",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/block/BlockColoring$2": {
+    "name": "biomesoplenty/common/block/BlockColoring$2",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "biomesoplenty/common/config/GameplayConfigurationHandler": {
+    "name": "biomesoplenty/common/config/GameplayConfigurationHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onConfigurationChangedEvent(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/config/MiscConfigurationHandler": {
+    "name": "biomesoplenty/common/config/MiscConfigurationHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onConfigurationChangedEvent(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent$OnConfigChangedEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/crafting/BiomeEssenceRecipe": {
+    "name": "biomesoplenty/common/crafting/BiomeEssenceRecipe",
+    "interfaces": [
+      "net/minecraft/item/crafting/IRecipe"
+    ]
+  },
+  "biomesoplenty/common/entities/EntityWasp": {
+    "name": "biomesoplenty/common/entities/EntityWasp",
+    "interfaces": [
+      "net/minecraft/entity/monster/IMob"
+    ]
+  },
+  "biomesoplenty/common/entities/item/ModelBOPBoat": {
+    "name": "biomesoplenty/common/entities/item/ModelBOPBoat",
+    "interfaces": [
+      "net/minecraft/client/model/IMultipassModel"
+    ]
+  },
+  "biomesoplenty/common/handler/BucketEventHandler": {
+    "name": "biomesoplenty/common/handler/BucketEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRightClickHoldingBucket(Lnet/minecraftforge/event/entity/player/FillBucketEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/DyeEventHandler": {
+    "name": "biomesoplenty/common/handler/DyeEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "entityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/FogEventHandler": {
+    "name": "biomesoplenty/common/handler/FogEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onGetFogColor(Lnet/minecraftforge/client/event/EntityViewRenderEvent$FogColors;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderFog(Lnet/minecraftforge/client/event/EntityViewRenderEvent$RenderFogEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/FurnaceFuelHandler": {
+    "name": "biomesoplenty/common/handler/FurnaceFuelHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler"
+    ]
+  },
+  "biomesoplenty/common/handler/GrassPathEventHandler": {
+    "name": "biomesoplenty/common/handler/GrassPathEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBlockRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/GuiEventHandler": {
+    "name": "biomesoplenty/common/handler/GuiEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPreInitCreateWorld(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Pre;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/LeavesModelEventHandler": {
+    "name": "biomesoplenty/common/handler/LeavesModelEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTextureStitch(Lnet/minecraftforge/client/event/TextureStitchEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onModelBake(Lnet/minecraftforge/client/event/ModelBakeEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/LootTableEventHandler": {
+    "name": "biomesoplenty/common/handler/LootTableEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/PotionCurseHandler": {
+    "name": "biomesoplenty/common/handler/PotionCurseHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingUpdateEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/SheepEventHandler": {
+    "name": "biomesoplenty/common/handler/SheepEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityJoin(Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/SilkTouchEventHandler": {
+    "name": "biomesoplenty/common/handler/SilkTouchEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onSilkTouched(Lnet/minecraftforge/event/world/BlockEvent$HarvestDropsEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/TrailsEventHandler": {
+    "name": "biomesoplenty/common/handler/TrailsEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V",
+        "values": {
+          "receiveCanceled": {
+            "type": "BOOL",
+            "value": "true"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/UseHoeEventHandler": {
+    "name": "biomesoplenty/common/handler/UseHoeEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "useHoe(Lnet/minecraftforge/event/entity/player/UseHoeEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/VillageMaterialEventHandler": {
+    "name": "biomesoplenty/common/handler/VillageMaterialEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "getVillageBlockID(Lnet/minecraftforge/event/terraingen/BiomeEvent$GetVillageBlockID;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/handler/decoration/DecorateBiomeEventHandler": {
+    "name": "biomesoplenty/common/handler/decoration/DecorateBiomeEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPreBiomeDecorate(Lnet/minecraftforge/event/terraingen/DecorateBiomeEvent$Pre;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBiomeDecorate(Lnet/minecraftforge/event/terraingen/DecorateBiomeEvent$Decorate;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPostBiomeDecorate(Lnet/minecraftforge/event/terraingen/DecorateBiomeEvent$Post;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPreGenerateOres(Lnet/minecraftforge/event/terraingen/OreGenEvent$Pre;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPostGenerateOres(Lnet/minecraftforge/event/terraingen/OreGenEvent$Post;)V"
+      }
+    ]
+  },
+  "biomesoplenty/common/init/ModBiomes": {
+    "name": "biomesoplenty/common/init/ModBiomes",
+    "interfaces": [
+      "biomesoplenty/api/biome/BOPBiomes$IBiomeRegistry"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$1": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$1",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$2": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$2",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$3": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$3",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$4": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$4",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$5": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$5",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$6": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$6",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$7": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$7",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModBlockQueries$8": {
+    "name": "biomesoplenty/common/init/ModBlockQueries$8",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/init/ModCompatibility$1": {
+    "name": "biomesoplenty/common/init/ModCompatibility$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "biomesoplenty/common/item/ItemBiomeFinder$1": {
+    "name": "biomesoplenty/common/item/ItemBiomeFinder$1",
+    "interfaces": [
+      "net/minecraft/item/IItemPropertyGetter"
+    ]
+  },
+  "biomesoplenty/common/item/ItemJarFilled$JarContents": {
+    "name": "biomesoplenty/common/item/ItemJarFilled$JarContents",
+    "interfaces": [
+      "net/minecraft/util/IStringSerializable"
+    ]
+  },
+  "biomesoplenty/common/util/biome/BiomeUtils$1": {
+    "name": "biomesoplenty/common/util/biome/BiomeUtils$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$1": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$1",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$2": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$2",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryAltitude": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryAltitude",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryAnd": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryAnd",
+    "interfaces": [
+      "biomesoplenty/common/util/block/BlockQuery$ICompoundBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryLightAboveAtLeast": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryLightAboveAtLeast",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryLightAboveNoMoreThan": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryLightAboveNoMoreThan",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryNot": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryNot",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryOr": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQueryOr",
+    "interfaces": [
+      "biomesoplenty/common/util/block/BlockQuery$ICompoundBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockPosQuerySustainsPlantType": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockPosQuerySustainsPlantType",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$BlockQueryBase": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$BlockQueryBase",
+    "interfaces": [
+      "biomesoplenty/common/util/block/BlockQuery$IBlockQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$IBlockQuery": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$IBlockQuery",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/block/BlockQuery$ICompoundBlockPosQuery": {
+    "name": "biomesoplenty/common/util/block/BlockQuery$ICompoundBlockPosQuery",
+    "interfaces": [
+      "biomesoplenty/api/block/IBlockPosQuery"
+    ]
+  },
+  "biomesoplenty/common/util/config/BOPConfig$ConfigObjBase": {
+    "name": "biomesoplenty/common/util/config/BOPConfig$ConfigObjBase",
+    "interfaces": [
+      "biomesoplenty/api/config/IConfigObj"
+    ]
+  },
+  "biomesoplenty/common/world/BOPWorldSettings": {
+    "name": "biomesoplenty/common/world/BOPWorldSettings",
+    "interfaces": [
+      "biomesoplenty/api/config/IBOPWorldSettings"
+    ]
+  },
+  "biomesoplenty/common/world/ChunkGeneratorHellBOP": {
+    "name": "biomesoplenty/common/world/ChunkGeneratorHellBOP",
+    "interfaces": [
+      "net/minecraft/world/gen/IChunkGenerator"
+    ]
+  },
+  "biomesoplenty/common/world/ChunkGeneratorOverworldBOP": {
+    "name": "biomesoplenty/common/world/ChunkGeneratorOverworldBOP",
+    "interfaces": [
+      "net/minecraft/world/gen/IChunkGenerator"
+    ]
+  },
+  "biomesoplenty/common/world/GenerationManager": {
+    "name": "biomesoplenty/common/world/GenerationManager",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerationManager"
+    ]
+  },
+  "biomesoplenty/common/world/GeneratorRegistry$GeneratorRegistryImpl": {
+    "name": "biomesoplenty/common/world/GeneratorRegistry$GeneratorRegistryImpl",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGeneratorRegistry"
+    ]
+  },
+  "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolateLinear": {
+    "name": "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolateLinear",
+    "interfaces": [
+      "biomesoplenty/common/world/NoiseGeneratorBOPByte$IIntInterpolater"
+    ]
+  },
+  "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolatePower": {
+    "name": "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolatePower",
+    "interfaces": [
+      "biomesoplenty/common/world/NoiseGeneratorBOPByte$IIntInterpolater"
+    ]
+  },
+  "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolateSmooth": {
+    "name": "biomesoplenty/common/world/NoiseGeneratorBOPByte$IntInterpolateSmooth",
+    "interfaces": [
+      "biomesoplenty/common/world/NoiseGeneratorBOPByte$IIntInterpolater"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorBigFlower$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorBigFlower$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorBigMushroom$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorBigMushroom$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorBlobs$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorBlobs$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorBramble$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorBramble$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorColumns$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorColumns$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorCrystals$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorCrystals$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorDoubleFlora$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorDoubleFlora$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorFlora$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorFlora$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorGrass$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorGrass$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorHive$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorHive$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorLakes$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorLakes$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorLogs$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorLogs$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorMixedLily$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorMixedLily$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorOreCluster$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorOreCluster$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorOreSingle$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorOreSingle$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorSpike$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorSpike$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorSplatter$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorSplatter$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorSplotches$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorSplotches$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorVines$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorVines$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorWaterside$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorWaterside$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/GeneratorWeighted$Builder": {
+    "name": "biomesoplenty/common/world/generator/GeneratorWeighted$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorBasicTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorBasicTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorBayouTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorBayouTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorBigTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorBigTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorBulbTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorBulbTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorBush$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorBush$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorMahoganyTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorMahoganyTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorMangroveTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorMangroveTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorMegaJungleTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorMegaJungleTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorPalmTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorPalmTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorPineTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorPineTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorProfileTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorProfileTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorRedwoodTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorRedwoodTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorRedwoodTreeThin$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorRedwoodTreeThin$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorTaigaTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorTaigaTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/generator/tree/GeneratorTwigletTree$Builder": {
+    "name": "biomesoplenty/common/world/generator/tree/GeneratorTwigletTree$Builder",
+    "interfaces": [
+      "biomesoplenty/api/generation/IGenerator$IGeneratorBuilder"
+    ]
+  },
+  "biomesoplenty/common/world/layer/GenLayerShoreBOP$1": {
+    "name": "biomesoplenty/common/world/layer/GenLayerShoreBOP$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/common/world/layer/GenLayerShoreBOP$2": {
+    "name": "biomesoplenty/common/world/layer/GenLayerShoreBOP$2",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/common/world/layer/GenLayerShoreBOP$3": {
+    "name": "biomesoplenty/common/world/layer/GenLayerShoreBOP$3",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/common/world/layer/GenLayerShoreBOP$4": {
+    "name": "biomesoplenty/common/world/layer/GenLayerShoreBOP$4",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "biomesoplenty/core/BiomesOPlenty": {
+    "name": "biomesoplenty/core/BiomesOPlenty",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "biomesoplenty/core/BiomesOPlenty",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-after:forge@[14.23.5.2768,)"
+          },
+          "guiFactory": {
+            "value": "biomesoplenty.client.gui.GuiBOPFactory"
+          },
+          "modid": {
+            "value": "biomesoplenty"
+          },
+          "name": {
+            "value": "Biomes O\u0027 Plenty"
+          },
+          "version": {
+            "value": "7.0.1.2444"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "biomesoplenty"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "biomesoplenty.core.ClientProxy"
+          },
+          "serverSide": {
+            "value": "biomesoplenty.core.CommonProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "construction(Lnet/minecraftforge/fml/common/event/FMLConstructionEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "biomesoplenty/core/ClientProxy$EntityRenderFactory": {
+    "name": "biomesoplenty/core/ClientProxy$EntityRenderFactory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+   "variants": {
+      "axis=z,disposition=0":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns" },
+      "axis=z,disposition=1":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_1" },
+      "axis=z,disposition=2":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_2" },
+      "axis=z,disposition=3":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_3" },
+      "axis=z,disposition=4":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_4" },
+      "axis=z,disposition=5":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_5" },
+      "axis=z,disposition=6":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_6" },
+      "axis=z,disposition=7":{ "model": "giacomos_bookshelf:bookshelf_acacia_ns_7" },
+      "axis=x,disposition=0":{ "model": "giacomos_bookshelf:bookshelf_acacia_we" },
+      "axis=x,disposition=1":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_1" },
+      "axis=x,disposition=2":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_2" },
+      "axis=x,disposition=3":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_3" },
+      "axis=x,disposition=4":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_4" },
+      "axis=x,disposition=5":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_5" },
+      "axis=x,disposition=6":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_6" },
+      "axis=x,disposition=7":{ "model": "giacomos_bookshelf:bookshelf_acacia_we_7" }
+   }
+}

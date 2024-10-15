@@ -1,0 +1,7 @@
+enchantment.veining=Veining
+modifier.veining.name=Veining
+veining.config.server=Server Side Settings
+veining.config.client=Client Side Settings
+item.explosiveemerald.name=Explosive Emerald
+
+enchantment.veining.veining.desc=Pickaxes with this enchantment will crumble entire veins at once.

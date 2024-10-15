@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "giacomos_bookshelves",
+  "pattern": [
+    "ppp",
+    "   ",
+    "ppp"
+  ],
+   "key": {
+    "p": {
+      "item": "minecraft:planks",
+      "data": 2
+    }
+  },
+  "result": {
+    "item": "bookshelf_birch",
+    "data": 0
+  }
+}

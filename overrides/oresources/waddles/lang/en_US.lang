@@ -1,0 +1,12 @@
+#Entity
+entity.waddles:adelie_penguin.name=Penguin
+
+#Subtitles
+waddles:subtitles.adelie.ambient=Penguin squawks
+waddles:subtitles.adelie.baby.ambient=Penguin Baby squeaks
+waddles:subtitles.adelie.death=Penguin dies
+waddles:subtitles.adelie.hurt=Penguin hurts
+
+#Tooltip
+waddles:config.category.general.tooltip=General config options for Waddles
+waddles:config.category.spawnchances.tooltip=Configurable spawn chances for penguins

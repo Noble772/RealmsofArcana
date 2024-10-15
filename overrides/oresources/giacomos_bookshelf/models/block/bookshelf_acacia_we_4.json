@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+   "textures": {
+      "particle": "giacomos_bookshelf:blocks/bookshelf_acacia_4",
+      "down":     "blocks/planks_acacia",
+      "up":       "blocks/planks_acacia",
+      "north":    "blocks/planks_acacia",
+      "south":    "blocks/planks_acacia",
+      "west":     "giacomos_bookshelf:blocks/bookshelf_acacia_4",
+      "east":     "giacomos_bookshelf:blocks/bookshelf_acacia_4"
+   }
+}

@@ -1,0 +1,17 @@
+{
+  "block.rail.step": {
+    "sounds": [
+      "minecraft:block.wood.step"
+    ]
+  },
+  "block.rail.place": {
+    "sounds": [
+      "minecraft:block.wood.place"
+    ]
+  },
+  "block.rail.break": {
+    "sounds": [
+      "minecraft:block.wood.break"
+    ]
+  }
+}
