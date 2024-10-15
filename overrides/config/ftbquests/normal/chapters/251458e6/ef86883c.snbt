@@ -1,0 +1,15 @@
+{
+	title: "Ranger",
+	x: 1.5d,
+	y: -10.5d,
+	size: 1.5d,
+	tasks: [{
+		uid: "e254e4c6",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

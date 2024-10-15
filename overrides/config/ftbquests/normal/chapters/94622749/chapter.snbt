@@ -1,0 +1,12 @@
+{
+	title: "Metalworking",
+	icon: {
+		id: "minecraft:iron_ingot",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

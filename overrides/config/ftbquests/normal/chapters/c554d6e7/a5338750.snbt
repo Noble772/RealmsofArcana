@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "119f28e8",
+		type: "item",
+		items: [{
+			id: "minecraft:crafting_table",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

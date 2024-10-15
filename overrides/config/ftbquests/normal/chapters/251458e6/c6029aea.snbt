@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: -9.5d,
+	tasks: [{
+		uid: "0724ac12",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:battleaxe_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

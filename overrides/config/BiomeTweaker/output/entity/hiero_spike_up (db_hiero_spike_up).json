@@ -1,0 +1,6 @@
+
+{
+  "Name": "hiero_spike_up",
+  "Registry ID": "db:hiero_spike_up",
+  "Class": "com.unseen.db.entity.EntityHieroSpikeOp"
+}

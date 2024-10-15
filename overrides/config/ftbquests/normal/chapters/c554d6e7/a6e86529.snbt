@@ -1,0 +1,51 @@
+{
+	x: 12.0d,
+	y: 4.0d,
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "ebe910bf",
+		type: "item",
+		items: [{
+			item: "embers:pickaxe_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f38dab8a",
+		type: "item",
+		items: [{
+			item: "embers:sword_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3547b31",
+		type: "item",
+		items: [{
+			item: "embers:axe_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "914821d6",
+		type: "item",
+		items: [{
+			item: "embers:shovel_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "38b25756",
+		type: "item",
+		items: [{
+			item: "embers:hoe_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

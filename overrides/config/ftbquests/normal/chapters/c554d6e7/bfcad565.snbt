@@ -1,0 +1,11 @@
+{
+	icon: "ebwizardry:charm_experience_tome",
+	x: -5.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "816d4b6b",
+		type: "checkmark",
+		title: "Welcome to Realms of Arcana!"
+	}]
+}

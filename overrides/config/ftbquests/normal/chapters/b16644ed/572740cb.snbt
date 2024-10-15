@@ -1,0 +1,15 @@
+{
+	title: "Enter the Twilight Forest",
+	icon: "twilightforest:miniature_structure",
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"fef83514"
+	],
+	size: 1.15d,
+	tasks: [{
+		uid: "95a44575",
+		type: "dimension",
+		dim: 7
+	}]
+}

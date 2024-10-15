@@ -1,0 +1,6 @@
+
+{
+  "Name": "hierophant",
+  "Registry ID": "db:hierophant",
+  "Class": "com.unseen.db.entity.EntityHeirophant"
+}

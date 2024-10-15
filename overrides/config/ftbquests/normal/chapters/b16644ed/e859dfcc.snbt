@@ -1,0 +1,80 @@
+{
+	x: 7.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "754c271b",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_helmet",
+			tag: {
+				ench: [{
+					id: 6,
+					lvl: 1s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "604cacaa",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_chestplate",
+			tag: {
+				ench: [{
+					id: 0,
+					lvl: 1s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8174c2c",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_leggings",
+			tag: {
+				ench: [{
+					id: 0,
+					lvl: 1s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86b7fc6f",
+		type: "item",
+		items: [{
+			id: "twilightforest:ironwood_boots",
+			tag: {
+				ench: [{
+					id: 2,
+					lvl: 1s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

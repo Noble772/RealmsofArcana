@@ -1,0 +1,13 @@
+{
+	x: 4.0d,
+	y: -11.5d,
+	tasks: [{
+		uid: "a6a79bb4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

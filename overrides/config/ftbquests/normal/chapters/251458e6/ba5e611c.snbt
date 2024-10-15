@@ -1,0 +1,17 @@
+{
+	title: "Handcannoner",
+	x: 1.0d,
+	y: -9.5d,
+	tasks: [{
+		uid: "56d765e5",
+		type: "item",
+		items: [{
+			id: "archaicguns:pipegun",
+			tag: {
+				AmmoCount: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

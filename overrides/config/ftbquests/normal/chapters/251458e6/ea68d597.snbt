@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: -11.5d,
+	tasks: [{
+		uid: "a8fe822f",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:dagger_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

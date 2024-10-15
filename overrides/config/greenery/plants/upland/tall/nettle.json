@@ -1,0 +1,6 @@
+{
+    "worldGen": [
+        "0 | !type:beach | 0.25 | 8 | 32"
+    ],
+    "isHarmful": true
+}

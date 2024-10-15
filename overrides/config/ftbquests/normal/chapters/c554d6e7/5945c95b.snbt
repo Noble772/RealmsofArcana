@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "777bf353",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any campfire"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "campfire"
+				}
+			}
+		}]
+	}]
+}

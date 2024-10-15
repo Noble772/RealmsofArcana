@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "0f9f221d",
+		type: "kill",
+		icon: {
+			id: "iceandfire:dragon_skull",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "iceandfire:icedragon",
+		value: 5L
+	}]
+}

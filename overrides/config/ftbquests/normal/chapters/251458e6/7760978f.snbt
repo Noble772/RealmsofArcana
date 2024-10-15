@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: -11.5d,
+	tasks: [{
+		uid: "1f0e8271",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:caestus"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

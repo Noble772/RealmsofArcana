@@ -1,0 +1,15 @@
+{
+	title: "Mage",
+	x: 4.5d,
+	y: -10.5d,
+	size: 1.5d,
+	tasks: [{
+		uid: "7744daec",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

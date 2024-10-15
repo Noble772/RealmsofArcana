@@ -1,0 +1,7 @@
+{
+    "add":[
+        {"inputs":[{"id":"pyrotech:material","Damage":24}],"output":{"id":"minecraft:brick"},"cookTime":800},
+		{"inputs":[{"oreid":"logWood"}],"output":{"id":"minecraft:coal","Damage":1}},
+		{"inputs":[{"oreid":"listAllmeatraw"}],"output":{"id":"foodexpansion:itemcookedocelotmeat"}}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Beasts and Titans",
+	icon: {
+		id: "iceandfire:troll_skull",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

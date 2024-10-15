@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	dependencies: [
+		"382a8bc5"
+	],
+	tasks: [{
+		uid: "8241f646",
+		type: "kill",
+		title: "Slay the Minoshroom",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 6s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}]
+}

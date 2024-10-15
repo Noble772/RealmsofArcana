@@ -1,0 +1,11 @@
+{
+	x: 8.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "8d551179",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_block"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+    "rules": [
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "pyrotech:rock:8"
+                    ]
+                }
+            },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        }
+	]
+}
+]
+}

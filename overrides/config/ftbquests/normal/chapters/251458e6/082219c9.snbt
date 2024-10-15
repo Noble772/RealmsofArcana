@@ -1,0 +1,15 @@
+{
+	title: "Warrior",
+	x: -4.5d,
+	y: -10.5d,
+	size: 1.5d,
+	tasks: [{
+		uid: "740d2e5e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,8 @@
+{
+    "worldGen": [
+    ],
+    "compatibleFluids": [
+        "water"
+    ],
+    "hasOffset": false
+}

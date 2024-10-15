@@ -1,0 +1,11 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "2c6d825e",
+		type: "item",
+		items: [{
+			item: "exsartagine:pot"
+		}]
+	}]
+}

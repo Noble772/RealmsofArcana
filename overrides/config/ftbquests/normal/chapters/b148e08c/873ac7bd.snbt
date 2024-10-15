@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "15c87c4f",
+		type: "kill",
+		icon: {
+			id: "mowziesmobs:wrought_helmet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 3L
+	}]
+}

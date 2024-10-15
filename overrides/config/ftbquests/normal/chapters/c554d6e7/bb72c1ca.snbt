@@ -1,0 +1,11 @@
+{
+	x: 8.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "d7a80c53",
+		type: "item",
+		items: [{
+			item: "exsartagine:kettle"
+		}]
+	}]
+}

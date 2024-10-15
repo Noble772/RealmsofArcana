@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	dependencies: [
+		"572740cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "934a2072",
+		type: "kill",
+		title: "Slay the Naga",
+		icon: {
+			id: "twilightforest:trophy",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:naga",
+		value: 1L
+	}]
+}

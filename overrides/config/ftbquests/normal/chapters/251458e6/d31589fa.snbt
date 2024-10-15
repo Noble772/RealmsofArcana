@@ -1,0 +1,15 @@
+{
+	title: "Vanguard",
+	x: -1.5d,
+	y: -10.5d,
+	size: 1.5d,
+	tasks: [{
+		uid: "34037ec9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

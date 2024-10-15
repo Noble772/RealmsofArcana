@@ -1,0 +1,96 @@
+{
+    "rules": [
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:tallgrass:*",
+                        "minecraft:double_plant:2",
+                        "biomesoplenty:plant_0:*",
+                        "greenery:plant/emergent/arrowhead",
+                        "greenery:plant/upland/tall/eagle_fern",
+                        "greenery:plant/upland/tall/foxtail",
+                        "greenery:plant/upland/tall/ryegrass",
+                        "greenery:plant/upland/tall/barley"
+                    ]
+                }
+            },
+            "replaceStrategy": "ADD",
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 40
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 60
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "pyrotech:material:12"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:leaves:*",
+                        "biomesoplenty:leaves_0:*",
+                        "biomesoplenty:leaves_1:*",
+                        "biomesoplenty:leaves_2:*",
+                        "biomesoplenty:leaves_3:*",
+                        "biomesoplenty:leaves_4:*",
+                        "biomesoplenty:leaves_5:*",
+                        "biomesoplenty:leaves_6:*",
+                        "atum:palm_leaves",
+                        "aether_legacy:aether_leaves:*",
+                        "twilightforest:twilight_leaves:*",
+                        "quark:variant_leaves:*"
+                    ]
+                }
+            },
+            "replaceStrategy": "ADD",
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 50
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 15
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:stick"
+                        ]
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 35
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "pyrotech:material:12"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

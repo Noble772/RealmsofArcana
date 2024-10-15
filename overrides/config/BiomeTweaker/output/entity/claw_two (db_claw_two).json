@@ -1,0 +1,6 @@
+
+{
+  "Name": "claw_two",
+  "Registry ID": "db:claw_two",
+  "Class": "com.unseen.db.entity.EntityClawTwo"
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"f959d336"
+	],
+	tasks: [{
+		uid: "e0bf38ed",
+		type: "kill",
+		title: "Defeat the Knight Phantom",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}]
+}

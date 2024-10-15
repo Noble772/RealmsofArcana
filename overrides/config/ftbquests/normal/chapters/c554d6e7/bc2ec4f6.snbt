@@ -1,0 +1,11 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "e6faff52",
+		type: "item",
+		items: [{
+			item: "exsartagine:hearth_extended"
+		}]
+	}]
+}

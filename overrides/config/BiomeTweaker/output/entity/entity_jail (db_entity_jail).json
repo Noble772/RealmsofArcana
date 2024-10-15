@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_jail",
+  "Registry ID": "db:entity_jail",
+  "Class": "com.unseen.db.entity.EntityJailCell"
+}

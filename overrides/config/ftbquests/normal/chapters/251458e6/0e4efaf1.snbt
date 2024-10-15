@@ -1,0 +1,14 @@
+{
+	title: "Knight",
+	x: -5.0d,
+	y: -9.5d,
+	tasks: [{
+		uid: "ba3bd945",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

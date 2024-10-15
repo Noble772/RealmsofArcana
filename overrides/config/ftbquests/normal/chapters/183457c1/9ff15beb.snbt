@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "4bbd01f6",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:heater",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "806704de",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:chiller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

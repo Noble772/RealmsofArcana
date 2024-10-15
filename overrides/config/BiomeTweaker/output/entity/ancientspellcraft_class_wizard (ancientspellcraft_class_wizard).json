@@ -1,0 +1,6 @@
+
+{
+  "Name": "ancientspellcraft:class_wizard",
+  "Registry ID": "ancientspellcraft:class_wizard",
+  "Class": "com.windanesz.ancientspellcraft.entity.living.EntityClassWizard"
+}

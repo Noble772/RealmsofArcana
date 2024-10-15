@@ -1,0 +1,44 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "32902dcb",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_chestplate",
+			tag: {
+				ench: [{
+					id: 1,
+					lvl: 3s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "840d54ef",
+		type: "item",
+		items: [{
+			id: "twilightforest:naga_leggings",
+			tag: {
+				ench: [{
+					id: 0,
+					lvl: 3s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

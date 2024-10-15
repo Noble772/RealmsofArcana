@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "9c8f9c59",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e6750d2b",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

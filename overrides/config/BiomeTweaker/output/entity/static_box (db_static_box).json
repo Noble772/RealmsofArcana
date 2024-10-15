@@ -1,0 +1,6 @@
+
+{
+  "Name": "static_box",
+  "Registry ID": "db:static_box",
+  "Class": "com.unseen.db.entity.EntityStaticBox"
+}

@@ -1,0 +1,11 @@
+{
+	x: 7.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "9522ff1f",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 24"
+		}]
+	}]
+}

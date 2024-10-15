@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "6b5383c0",
+		type: "kill",
+		icon: {
+			id: "minecraft:prismarine_shard",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "minecraft:elder_guardian",
+		value: 3L
+	}]
+}

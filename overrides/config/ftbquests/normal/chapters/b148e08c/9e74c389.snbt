@@ -1,0 +1,16 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "70b26c30",
+		type: "kill",
+		icon: {
+			id: "iceandfire:troll_skull",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "iceandfire:if_troll",
+		value: 7L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	dependencies: [
+		"931124ea"
+	],
+	tasks: [{
+		uid: "0a5630a7",
+		type: "kill",
+		title: "Slay the Alpha Yeti",
+		icon: {
+			id: "twilightforest:alpha_fur",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}]
+}

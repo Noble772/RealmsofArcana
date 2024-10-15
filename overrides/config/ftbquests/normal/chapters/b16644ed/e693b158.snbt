@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"e8caf627"
+	],
+	tasks: [{
+		uid: "309acdea",
+		type: "kill",
+		title: "Defeat the Snow Queen",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}]
+}

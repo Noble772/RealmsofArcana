@@ -1,0 +1,52 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "89a5114b",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:wool_helmet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "608779ef",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:wool_chestplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53e79f99",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:wool_leggings",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92eabff2",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:wool_boots",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

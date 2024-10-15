@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "ef5f6dbc",
+		type: "kill",
+		icon: {
+			id: "minecraft:skull",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "minecraft:wither",
+		value: 1L
+	}]
+}

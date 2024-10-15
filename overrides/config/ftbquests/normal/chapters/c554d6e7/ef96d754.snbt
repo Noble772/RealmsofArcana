@@ -1,0 +1,42 @@
+{
+	x: 12.0d,
+	y: -1.0d,
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "1c05fdf0",
+		type: "item",
+		items: [{
+			item: "iceandfire:copper_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9548ab42",
+		type: "item",
+		items: [{
+			item: "iceandfire:copper_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1814e8e1",
+		type: "item",
+		items: [{
+			item: "iceandfire:copper_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f2810d2",
+		type: "item",
+		items: [{
+			item: "iceandfire:copper_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

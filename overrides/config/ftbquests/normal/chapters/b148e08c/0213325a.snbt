@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "c93f829b",
+		type: "kill",
+		title: "Ender Slayer",
+		icon: {
+			id: "minecraft:skull",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	title: "Enter the Nether",
+	x: -6.5d,
+	y: -1.5d,
+	shape: "square",
+	tasks: [{
+		uid: "2c875779",
+		type: "dimension",
+		dim: -1
+	}]
+}

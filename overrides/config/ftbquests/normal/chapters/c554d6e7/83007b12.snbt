@@ -1,0 +1,12 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "684e30f1",
+		type: "item",
+		items: [{
+			item: "exsartagine:hearth"
+		}]
+	}]
+}

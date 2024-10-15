@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"5151d283"
+	],
+	tasks: [{
+		uid: "9168a2cc",
+		type: "kill",
+		title: "Slay the Ur-Ghast",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:ur_ghast",
+		value: 1L
+	}]
+}

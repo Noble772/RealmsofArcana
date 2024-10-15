@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	description: "Hunt some of the local wildlife.",
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "4ce9a1b6",
+		type: "advancement",
+		title: "Silence of the Forest",
+		advancement: "twilightforest:twilight_hunter",
+		criterion: ""
+	}]
+}

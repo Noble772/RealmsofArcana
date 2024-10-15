@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "51e4b5e7",
+		type: "kill",
+		icon: {
+			id: "mowziesmobs:ice_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "mowziesmobs:frostmaw",
+		value: 5L
+	}]
+}

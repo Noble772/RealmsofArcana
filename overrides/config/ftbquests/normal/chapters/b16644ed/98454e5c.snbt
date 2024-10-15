@@ -1,0 +1,56 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "7a164bee",
+		type: "item",
+		items: [{
+			id: "twilightforest:knightmetal_helmet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6934668b",
+		type: "item",
+		items: [{
+			id: "twilightforest:knightmetal_chestplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "483d22ef",
+		type: "item",
+		items: [{
+			id: "twilightforest:knightmetal_leggings",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae256e68",
+		type: "item",
+		items: [{
+			id: "twilightforest:knightmetal_boots",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

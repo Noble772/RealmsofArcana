@@ -1,0 +1,15 @@
+{
+	title: "Crossbowman",
+	x: 2.0d,
+	y: -9.5d,
+	tasks: [{
+		uid: "e636b478",
+		type: "item",
+		items: [{
+			id: "spartanweaponry:crossbow_iron",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

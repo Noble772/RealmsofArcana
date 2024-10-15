@@ -1,0 +1,80 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "ad899464",
+		type: "item",
+		items: [{
+			id: "twilightforest:steeleaf_helmet",
+			tag: {
+				ench: [{
+					id: 4,
+					lvl: 2s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d34993b",
+		type: "item",
+		items: [{
+			id: "twilightforest:steeleaf_chestplate",
+			tag: {
+				ench: [{
+					id: 3,
+					lvl: 2s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "411b6a0d",
+		type: "item",
+		items: [{
+			id: "twilightforest:steeleaf_leggings",
+			tag: {
+				ench: [{
+					id: 1,
+					lvl: 2s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "730b8611",
+		type: "item",
+		items: [{
+			id: "twilightforest:steeleaf_boots",
+			tag: {
+				ench: [{
+					id: 2,
+					lvl: 2s
+				}]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

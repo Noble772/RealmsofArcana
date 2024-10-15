@@ -1,0 +1,7 @@
+{
+	title: "Combat",
+	icon: "minecraft:iron_sword",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

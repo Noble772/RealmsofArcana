@@ -1,0 +1,7 @@
+{
+	title: "The Nether",
+	icon: "minecraft:nether_brick",
+	always_invisible: false,
+	group: -11515999,
+	default_quest_shape: ""
+}

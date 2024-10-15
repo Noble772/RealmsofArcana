@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"Get your axes and shears ready. Search every nook and cranny and get anything and everything that comes from trees! Craft, loot, obtain every slab... sapling... leaves... more... everything. ALL OF IT!"
+	],
+	tasks: [{
+		uid: "457614a9",
+		type: "advancement",
+		title: "Maniacal Dendrologist",
+		advancement: "twilightforest:arborist",
+		criterion: ""
+	}]
+}

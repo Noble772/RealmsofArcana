@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"572740cb"
+	],
+	tasks: [{
+		uid: "f4153d05",
+		type: "item",
+		items: [{
+			id: "twilightforest:trophy",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

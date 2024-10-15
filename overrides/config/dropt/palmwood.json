@@ -1,0 +1,26 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:log_1:7"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "oe:palm_log"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

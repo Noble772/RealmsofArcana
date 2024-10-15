@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	dependencies: [
+		"38579ae4"
+	],
+	tasks: [{
+		uid: "5edd813a",
+		type: "kill",
+		title: "Defeat the Twilight Lich",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:lich",
+		value: 1L
+	}]
+}

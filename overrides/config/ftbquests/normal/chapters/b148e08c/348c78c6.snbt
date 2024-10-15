@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "0765d571",
+		type: "kill",
+		icon: {
+			id: "mowziesmobs:grant_suns_blessing",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "mowziesmobs:barako",
+		value: 3L
+	}]
+}

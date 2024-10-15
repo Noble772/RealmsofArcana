@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "dacd3bf3",
+		type: "checkmark",
+		title: "Craft the Twilight Forest Portal",
+		icon: {
+			id: "netherex:ghast_queen_tear",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

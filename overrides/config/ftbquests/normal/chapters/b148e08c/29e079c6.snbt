@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "2bc13a94",
+		type: "kill",
+		icon: {
+			id: "iceandfire:seaserpent_skull",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "iceandfire:seaserpent",
+		value: 3L
+	}]
+}

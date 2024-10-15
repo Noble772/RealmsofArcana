@@ -1,0 +1,9 @@
+{
+    "worldGen": [
+        "0 | !type:beach | 0.5 | 8 | 32"
+    ],
+    "drops": [
+        "seeds | 0.2"
+    ],
+    "hasTintIndex": true
+}

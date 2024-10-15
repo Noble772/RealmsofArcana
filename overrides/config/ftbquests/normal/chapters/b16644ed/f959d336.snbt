@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"add5c4e4"
+	],
+	tasks: [{
+		uid: "01ae1592",
+		type: "kill",
+		title: "Slay the Hydra",
+		icon: {
+			id: "twilightforest:trophy",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		entity: "twilightforest:hydra",
+		value: 1L
+	}]
+}
